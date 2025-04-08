@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: ciceroflix
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ciceroflix
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+  flyway:
+    enabled: true
