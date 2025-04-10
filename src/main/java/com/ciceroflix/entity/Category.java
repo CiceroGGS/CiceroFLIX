@@ -5,6 +5,7 @@ import lombok.*;
 
 @Entity
 @Table(name = "category")
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
